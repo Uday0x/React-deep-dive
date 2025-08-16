@@ -14,13 +14,15 @@
 - To create a Vite app:
   ```bash
   npm create vite@latest
+  ```bash
+   npm install
 
-
-### 3.components flow
-    - you can add nay functions also known as components with capital letter of function(naming convetion)
-    -you export the function using export keyword
-    -Later u import them in your main.jsx file and boom your craeted component or function is ready to be rendered
+## 3. Components Flow
+- In React, you can create functions (called **components**) by starting their name with a **capital letter** (naming convention).
+- Export the function using the `export` keyword.
+- Import it later in your `main.jsx` (or any other file) to render.
+- This approach makes your code **modular, reusable, and easy to maintain**.
 
 
 ### 4.creating a custom react
-    -you can always create ur own custom react in which the functions or the props can be run using Dom
+-you can always create ur own custom react in which the functions or the props can be run using Dom
