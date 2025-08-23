@@ -14,8 +14,7 @@
 - To create a Vite app:
   ```bash
   npm create vite@latest
-  ```bash
-   npm install
+  npm install
 
 ## 3. Components Flow
 - In React, you can create functions (called **components**) by starting their name with a **capital letter** (naming convention).
@@ -25,4 +24,13 @@
 
 
 ### 4.creating a custom react
--you can always create ur own custom react in which the functions or the props can be run using Dom
+- you can always create ur own custom react in which the functions or the props can be run using Dom 
+
+### 5.understanding hooks 
+    - first n foremost we need to undertsnad why do we hooks at first place?
+        - The answer would updating of UI of same varaible in differnet variables
+        - In the folder of hooks we explore simple project project of hooks and how it solves the problem of updating the variable at various places
+### 6.React props
+      -we use props to make componnet reuseable 
+      -simple create craete a compnent pass prop or destructure the varibales in the argument 
+      -pass the component wherever u want
