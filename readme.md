@@ -34,3 +34,9 @@
       -we use props to make componnet reuseable 
       -simple create craete a compnent pass prop or destructure the varibales in the argument 
       -pass the component wherever u want
+
+
+### & .Loader function 
+     -Loader function is used for optimzation meaning whenever there is an API call to be made to enhance speed we may use Loader function 
+     -This makes the API calls when we hover the cursor bar on to the data 
+     -It aslso stores results in cache
