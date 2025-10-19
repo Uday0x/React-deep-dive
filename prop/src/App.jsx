@@ -1,26 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Card from './components/card'
+import React, { useState } from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
+  const [num, setNum] = useState(0);
+
+
+  function increaseNum(){
+    setNum(num + 1);
+  }
+
+  function decreaseNum(){
+    setNum(num - 1);
+  }
+
+  function incraesebY5(){
+    setNum(num*5)
+  }
   return (
-    <>
-    <Card name="saiuday"/>
-    <Card name="satyasai"/>
-    <Card name="shshs"/>
-    <Card name="sashbhns"/>
-    <Card name="satyjsjs"/>
-    <Card name="satyasai"/>
-    <Card name="sathjsj"/>
-    <Card name="satyjhsj"/>
-    <Card name="satyasai"/>
-    <Card name="satyshhns"/>
-    <Card name="satyasai"/>
-    </>
+    <div>
+      <button onClick={increaseNum}>incarese {num}</button>
+      <button onClick={decreaseNum}>decrase  {num}</button>
+      <button onClick={incraesebY5}>incraese By 5 {num}</button>
+    </div>
   )
 }
 
