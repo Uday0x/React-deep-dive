@@ -13,6 +13,10 @@ export default function App() {
     }
   };
 
+  const deleteNote = (id) => {
+    setNotes(notes.filter(note => note.id !== id));
+  }
+
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-2xl mx-auto">
@@ -63,7 +67,9 @@ export default function App() {
               <p className="text-gray-600">
                 {note.description || 'No description'}
               </p>
+               <button onClick={() => deleteNote(note.id)} className='w-[100] bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-200'>Delete</button>
             </div>
+      
           ))}
         </div>
         
